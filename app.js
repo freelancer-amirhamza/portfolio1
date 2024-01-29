@@ -49,6 +49,7 @@ const animText = new Typed ('.animated-text',{
 
 
 //   Contact send message with Emailjs
+// update now
 
 
 function sendEmail() {
