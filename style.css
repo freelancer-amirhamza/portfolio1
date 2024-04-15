@@ -208,13 +208,14 @@ span{
 .skill-card:hover{
     border-radius: 1rem solid;
     transform: scale(1.05);
+    border-color: #1AFD65;
 }
 .skill-card .bx{
     font-size: 8rem;
     transition: 0.4s ease;
 }
 
-.skill-card .bx:hover{
+.skill-card:hover .bx {
     color: #1AFD65;
 }
 
@@ -256,7 +257,7 @@ span{
     object-position: center;
 }
 .card-overlay{
-    background: rgba(0,0,0,0.8);
+    background: rgba(0, 0, 0, 0.719);
     position: absolute;
     width: 35rem;
     height: 25rem;
@@ -269,7 +270,7 @@ span{
     cursor: pointer;
 }
 .card-overlay:hover{
-    background: rgba(0,0,0,0);
+    background: unset;
     color: #000;
     transition: 0.4s all linear;
 
