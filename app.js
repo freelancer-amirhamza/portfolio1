@@ -39,7 +39,7 @@ ScrollReveal().reveal('.profile-pic, .about-items, .skills-items, .projects-item
 
 
 const animText = new Typed ('.animated-text',{
-    strings:['Front-End Developer', 'Web Designer', 'Digital Marketer'],
+    strings:['ReactJS Developer','Front-End Developer', 'Back-End Developer','MERN Stack Developer', 'Digital Marketer'],
     backSpeed: 100,
     typeSpeed:100,
     backDelay:600,
